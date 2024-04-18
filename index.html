@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNIVERSIDAD PRIVADA DOMINGO SAVIO</title>
+    <style>
+        body {
+            background-color: #4B0082;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            font-family: "Comic Sans MS",
+            cursive, sans-serif;
+        }
+        h1, video, img, audio {
+            margin: 30px;
+        }
+        .container {
+            text-align: center;
+        }
+        video, img {
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>VIDEO</h1>
+        <video src="video.mp4" width="320" height="180" alt="video explicativo" preload="auto" controls></video>
+    </div>
+
+    <div class="container">
+        <h1>IMAGEN</h1>
+        <img src="lain.gif" width="320" height="180">
+    </div>
+
+    <div class="container">
+        <h1>AUDIO</h1>
+        <audio src="cancion.mp3" controls></audio>
+    </div>
+
+</body>
+</html>
